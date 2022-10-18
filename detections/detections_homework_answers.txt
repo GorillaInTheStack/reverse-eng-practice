@@ -1,0 +1,229 @@
+Homework: Detections
+--------------------
+
+This archive contains two obfuscated powershell scripts, a Document file and an Excel sheet 
+Although the samples make use of obfuscation techniques typically used by malware, they are 
+not malicious and may trigger false positive by your AV Vendor. We recommend using safe 
+environment when handling the samples. However in no means the sample is malicious. In order 
+to answer the questions of this exercise, you will need to deobfuscate, analyze and write-up 
+the behavior of the scripts/documents.
+
+
+Your submission should contain only the answers to the questions below, together with relevant
+justifications. Please make sure to be clear, but try also to be concise.
+
+Please also provide your thoughts on how you reach the answer when handling each question. 
+Only answers in English will be considered.
+
+Please note that the flag/key has this format: fs_<randomchar>
+
+Questions
+---------
+
+Part 1: Analysis
+
+1.  Deobfuscate the script and identify the flag for the Powershell script located in folder 
+    q1 (i.e. archive root\detections\q1\Q1.ps1). Please explain your approach and each step 
+    taken to reach to the conclusion. 
+
+    I first started looking at the script to try to see what it was trying to do.
+    I immediately noticed that it is decoding a base64 string to a string type and then inovking the expression in the string returned.
+    I took the string as well as the code that returns the string (without invoking it) and I mimicked the behavior in a powershell terminal.
+    Here's the output I got:
+
+    PS /home/sam66ish> $pwshdecoded = [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String("$pwshcode"))
+    
+    PS /home/sam66ish> $pwshdecoded
+    $Decoded = [System.Convert]::FromBase64String("H4sIAAAAAAAEAFMpykzPKIkvS8wpTbU1MTKwzkxT0FBBElTQzUlVMDG01KwOL8osSdXNyC8u0VBKK9YtK84vdTUztEwLUNKsTc0pTkVR4JdfohCSkaqgEAQySgFslB5QIQA+FXIQcAAAAA==");
+    $ms = (New-Object System.IO.MemoryStream($Decoded,0,$Decoded.Length));
+    iex(New-Object System.IO.StreamReader(New-Object System.IO.Compression.GZipStream($ms, [System.IO.Compression.CompressionMode]::Decompress))).readtoend()
+
+    There was a new base64 string the expression it was trying to invoke so I decoded that too using powershell. I made sure not to invoke the anything.
+    This one is a bit different though because it's also compressed. So decoding alone won't show the actual code. Fortunately for me, whoever wrote this already
+    decompresses the value before executing it. So I just copied that like so:
+
+    PS /home/sam66ish> $Decoded = [System.Convert]::FromBase64String("H4sIAAAAAAAEAFMpykzPKIkvS8wpTbU1MTKwzkxT0FBBElTQzUlVMDG01KwOL8osSdXNyC8u0VBKK9YtK84vdTUztEwLUNKsTc0pTkVR4JdfohCSkaqgEAQySgFslB5QIQA+FXIQcAAAAA==");
+    PS /home/sam66ish> $ms = (New-Object System.IO.MemoryStream($Decoded,0,$Decoded.Length));
+    PS /home/sam66ish> $tmp = (New-Object System.IO.StreamReader(New-Object System.IO.Compression.GZipStream($ms, [System.IO.Compression.CompressionMode]::Decompress))).readtoend()7
+
+    PS /home/sam66ish> $tmp
+    $right_value=420;
+    if ($right_value -le 419){
+        Write-host("fs-vsouE619fP")
+        }else{
+            Write-host("Not The  Right value.")
+        }
+    
+    So The script basically always outputs "Not The  Right value." because that condition is always false.
+    The flag is there though, so we are done here and the file doesn't have anything else that I dont understand.
+
+    Flag Q1: fs-vsouE619fP
+
+
+
+2.  Deobfuscate the script and identify the flag for the Powershell script
+    located in folder q2 (i.e. archive root\detections\q2\Q2.ps1). Please explain your approach 
+    and each step taken to reach to the conclusion 
+    
+    Similar to first file, I started looking at the script line by line.
+
+    I quickly realized that all the lines from line 1 up to line 12 does not matter because they're not involved in the final string that is being invoked.
+    These lines take the first string in line 1 and compresses it and then encodes it in base64. After that it decompresses it and decodes it from base64 and stores 
+    it in the variable Decoder. The script never uses it again.
+
+    lines 13-15 are the important bit as they are involved in the string that will be invoked.
+    these lines use the same method as in Q1. So I did the same thing. I used powershell terminal to decode the base64 and decompress it.
+    I made sure not to invoke anything.
+    Here's my terminal:
+
+    PS /home/sam66ish> $decoded = [System.Convert]::FromBase64String("H4sIAAAAAAAEAFOpsDWztM5MU9BQqVDQzUlVMLPQrA4vyixJ1c3ILy7RUEorjk/0yyoIL05JtDBU0qxNzSlORVHgl5mcqlBSVKmQVFqiUJKRWawARHn5JQoZ+eUKmSUK5flF2cUKVppAvQCecToYbQAAAA==")
+    PS /home/sam66ish> $ms = (New-Object System.IO.MemoryStream($decoded,0,$decoded.Length))
+    PS /home/sam66ish> $tmp = (New-Object System.IO.StreamReader(New-Object System.IO.Compression.GZipStream($ms, [System.IO.Compression.CompressionMode]::Decompress))).ReadToEnd()
+
+    PS /home/sam66ish> $tmp
+$   x=69;
+    if ($x -le 68){
+        Write-host("fs_aNjpWsda81")
+        }else{
+            Write-host("Nice try but this is not how it works :)")
+        }
+    
+    Similar to Q1, this script always outputs "Nice try but this is not how it works :)" because the condition will always be false.
+    The flag is there though and there's no need to modify and execute the script to get it.
+    There's nothing else in the script that I don't understand, so we are done.
+
+    Flag Q2: fs_aNjpWsda81
+
+3.  Consider the word document located in folder q3 (i.e. archive root\detections\q3\Q3.docm). 
+    When opening the document file in MS Word something attempts to run. Analyze the document,
+    understand what it tries to execute and how, and find the flag. Please explain your 
+    approach and each step taken to reach to the conclusion 
+
+    Please refer to the file macros.vbs in the same folder Q3 while reading this.
+
+    I opened the document in libreoffice and I made sure it does not allow anything to execute.
+    I selected all and changed the color on the document just to see if there's anything colored white to hide it.
+    Then I opened the macros section by going to Tools > Macros > Edit Macros.
+    From there I found the visual basic script that tries to execute when the document is opened.
+    It uses an Autorun function to do this.
+    I extracted the script to macros.vbs on the same folder and I began analysis.
+
+    I started renaming variables from to top downwards to make it easier to understand.
+    I reached up until the function (func_deobfus). I first named it func_unkown and I went to understand what it was trying to do
+    I realized that it was using the string str_wscript_spawner to construct something meaningful. I copied this function and I isolated
+    it from the rest of the script. Since I'm sure it does not execute anything and returns a string, I gave it the input "[wgvmtx2Wlipp" so
+    that I dont have to calculate the output myself. It gave me back "Wscript.Shell". I renamed all the variables in the function and changed the function
+    name so that it all make more sense to me.
+
+    I went back to the Autorun function and I continued analysis.
+    I saw that the script takes the wscript host from the func_deobfus and creates an object with it. I named the object obj_wscript
+
+    I continued down and saw a new function that returns a string. I renamed the function to unknown and went to see what it was doing.
+    I realized this function has some useless variables that it does not use, this includes its own input. I renamed those variables so I dont care about them
+    Going down further I saw that the function has a long string that it passes to func_deobfus and then returns the output.
+    Since I already isolated that function, I gave it the long string to see what it is going to produce.
+    it produced "cmd.exe /c powershell.exe echo fs_X06QduRw1h > C:\Users\Public\flag.txt"
+    This spawns a terminal that writes the flag to the Public folder in Users. It echos the string and redirects the output from stdout to the file flag.txt
+    I renamed this function to func_cmd_deobfus and renamed the remaining variables.
+
+    I continued the analysis in Autorun now that I know what func_cmd_deobfus returns.
+    Next there was a new function that returns a string and takes as input obj_wscript, str_cmd_command, int_var_33
+
+    I followed that function to see what it was doing. I renamed the variables at the beginning and the inputs to temporary easier names.
+    After I did that, I noticed that the function has an if clause that is always true because of the input integer coming from Autorun.
+    Inside the if clause, the script uses the obj_wscript which is a script host to run the command str_cmd_command which was generated by func_cmd_deobfus
+    the line looks like: Wscript.Run cmd.exe /c powershell.exe echo fs_X06QduRw1h > C:\Users\Public\flag.txt, 0, True. This executes the command explained above.
+    After executing the command, the script overwrites the str_cmd_command, probably to hide it, and returns a gibberish stirng that Autorun returns at the end as well.
+
+    After I got this far, everything makes sense to me and there's nothing more I dont understand in the script.
+
+    flag Q3: fs_X06QduRw1h
+
+4.  Consider the excel document located in folder q4 (i.e. archive root\detections\q4\Q4.xlsm). 
+    When running the excel sheet, an alert is generated. Analyze the sample, understand 
+    where the alert is coming from and how it runs, and find the flag. Please explain your 
+    approach and each step taken to reach to the conclusion 
+
+    Please refer to the file macros.vbs in the same folder Q4 while reading this.
+
+    I started by opening the Excel file in my linux vm using libreoffice. I made sure no macros can run.
+    There's a picture in there. I checked the picture for any hidden values but there is nothing there.
+
+    I suspected some values might be hidden in the cells so I selected all with ctrl+a and changed the color. I could not find anything.
+    Looking down, I saw that libreoffice reported that there are two sheets, but I can only see one. This means there's one that is hidden.
+    I tried to unhide the sheet using libreoffice by going to Sheet > Show sheet > Macros.
+    This showed a second sheet that appears to be empty.
+    After gaining access to this sheet, I selected everything again and changed color. I immediately saw something in cells 1A, 2A, 3A.
+    I copied everything to macros.vbs in the folder. 
+
+    Examining the contains of the cells, the vbs commands are not obfuscated.
+    There are three commands:
+
+    =exec("cmd /c powershell.exe echo fs_w5AAD9tBiV > C:\\Users\\Public\\Downloads\\flag.txt")
+    =alert("Jackpot Dropped A Cookie Somewhere")
+    =halt()
+
+    The first command executes the cmd command that spawns a powershell terminal to write the flag in the Downloads folder.
+    The alert shows a box with the text that it has as input.
+    The halt command stops the macro from executing.
+
+    The cmd command is similar to the one in Q3.
+
+    There was not anything else to examine so I believe I'm done with the file.
+
+    flag Q4: fs_w5AAD9tBiV
+
+Part 2: Detections
+
+1.  If you were to detect each of the powershell scripts (Q1.ps1 and Q2.ps2) and detect 
+    similar files, how will you approach the detection? 
+	- Please explain your approach, no coding required. 
+	- Please provide a process flow, diagram or images to support your answer.
+
+    = Both scripts follow a similar execution logic. Both scripts compress code and then encode it with base64. They do these two operations one time or sometimes more.
+    The scripts also sometimes embed parts of the script so that it is compressed and encoded in layers.
+
+    My approach to static analyze the scripts is to read the scripts code line by line and check what kind of commands does it try to execute.
+    If I run into decompression and base64 as well as invoke expression commands I will immediately flag the file as suspicious.
+    I would also try to decode and decompress and check the strings. If i find commands such as cmd.exe or powershell that would be a dead give away that 
+    the script is malicious.
+
+    = Please check the image at /diagrams/powershell-detection.png for the process flow.
+
+2.  Write a Python or Lua script/s to detect the powershell scripts based on static features.
+    Note that hashing the whole file or parts of it will not be accepted. Please add comments 
+    to your code.
+	- Please submit your script/s and provide comments on your code.
+
+    = Please check the script at /script/detect-ps.py
+    Expected behavior:
+
+        Command: python detect-ps.py ../q1/Q1.ps1
+        output:
+            File is likely malicious!
+            Found hidden code:  $Decoded = [System.Convert]::FromBase64String("H4sIAAAAAAAEAFMpykzPKIkvS8wpTbU1MTKwzkxT0FBBElTQzUlVMDG01KwOL8osSdXNyC8u0VBKK9YtK84vdTUztEwLUNKsTc0pTkVR4JdfohCSkaqgEAQySgFslB5QIQA+FXIQcAAAAA==");$ms = (New-Object System.IO.MemoryStream($Decoded,0,$Decoded.Length));iex(New-Object System.IO.StreamReader(New-Object System.IO.Compression.GZipStream($ms, [System.IO.Compression.CompressionMode]::Decompress))).readtoend()
+            Found hidden code:  b'$right_value=420;if ($right_value -le 419){Write-host("fs-vsouE619fP")}else{Write-host("Not The  Right value.")}'
+            File has suspicious call:  ^.*\[System\.Convert\]::FromBase64String.*$
+            File has suspicious call:  iex|IEX|Invoke-Expression
+
+
+3.  If you were to detect the word and excel documents (Q3.docm and Q4.docm) with only one 
+    detection logic, what would be your approach? You can use either a static- or 
+    dynamic/behavior-based approach.
+    - Please explain your approach, no coding required. 
+	- Please provide a process flow, diagram or images to support your answer.
+
+    = If I had to choose, I would choose a static based approach. I find it much safer and easier to statically analyze
+    MS Office macros than to run then and then try to figure out what has happened. Especially that the macros are usually accessable
+    and the obfuscation is not complicated at all.
+    My approach would be to write a script that extracts the macros first. After that, I would scan the file for any calls
+    that seem suspicious. Such calls are .Run, Char(), Autorun and CreateObject.
+    extracting any hidden code would be more challenging as we have seen in Q3, sometimes the coders use
+    unconventional ways to encode their commands. It might still be scriptable without running it.
+    That being said, this is my opinion but really both approaches are essential for a better detection.
+
+    = Please check the image at /diagrams/macros-detection.png for the process flow.
+
+Expected deliverables for this exercise are:
+* The file that contains all your analysis, detection approach and explanations (This file + diagrams folder)
+* The Python/Lua script/s that detects the powershell scripts. (script folder)

@@ -1,0 +1,14 @@
+
+Suppose the following scenario:
+
+A large company became the victim of a spam campaign, where everyone has received an email containing a link to a malicious executable.
+Each email has a link to a different executable, however all executables from this campaign are from the same malware family and act similarly.
+
+It is known that at least 3 employees clicked the link and ran the executable on their workstation.
+On all Windows workstations there is a security software installed which monitors system activity while the employee is logged on, and saves the logs in JSON format.
+Included is the activity log of the 3 workstations that were certainly compromized.
+Now we need to know if there are other compromized workstations, based on the logged activity.
+
+Your task is to write a standalone program in Python, which has an activity log file as input, and determines if an executable from this campaign was run or not.
+
+The Python program must be "production level" quality: the code must be stable, and you need to make sure that the decision logic can be included in another Python program with minimal effort.

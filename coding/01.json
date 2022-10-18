@@ -1,0 +1,1379 @@
+{
+  "system_activity": {
+    "filesystem": {
+      "basic_info_change": [
+        {
+          "file_reference_number": 28617,
+          "path": "C:\\Windows\\Prefetch\\ReadyBoot\\ReadyBoot.etl",
+          "size": 3145728,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:31:26.550858",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "7ba4b236aa08cba1de77bfe53fd95ac24c42b723",
+          "hash_sha256": "a508dd16cea063488e5940efd4b77fb0cad5f8cff520ebb0a8a78bba87076f4f"
+        },
+        {
+          "file_reference_number": 86808,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\wfp\\wfpdiag.etl",
+          "size": 32768,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:31:58.833616",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "a1a1ac7266e86e3861df8ec5114e5b2db7f94a10",
+          "hash_sha256": "472e98f4a5b8617dcd50218460dee886c39e569d5134c53dd62b47213aeb340d"
+        },
+        {
+          "file_reference_number": 88761,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7\\71E33F.exe",
+          "size": 528896,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.458604",
+          "attributes": [
+            "NOT_CONTENT_INDEXED",
+            "SYSTEM",
+            "HIDDEN"
+          ],
+          "type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+          "hash": "341ff9cf30dd95e235428981d4c99996ad02c245",
+          "hash_sha256": "849958b9b3c51dfa67fb877537f06062bc378c9e6922626773532a1e411fc130"
+        },
+        {
+          "file_reference_number": 88919,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7",
+          "size": 152,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.458604",
+          "attributes": [
+            "NOT_CONTENT_INDEXED",
+            "SYSTEM",
+            "HIDDEN",
+            "DIRECTORY"
+          ],
+          "type": "directory"
+        },
+        {
+          "file_reference_number": 89221,
+          "path": "C:\\Windows\\System32\\WDI\\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\\{2ad7b1ee-92ca-4a8b-b75a-8ff1fb6dfe77}\\snapshot.etl",
+          "size": 229376,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:36.364864",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "2c2f97e2ba6e89eaac688fa727c76f0dfe5c983c",
+          "hash_sha256": "3f4dc931c1afc6658a44dab46a5056b6084f268edbf4bab02cbebc450ae8b736",
+          "extracted": true,
+          "ssdeep_hash": "768:zqP2OSN0NBfjvTRshmJSxJWzN/rruJG5ySuMtmDvLBseBFi9oSnG7DQcOan3skEv:esgFNjmDvLBXBFi1cOYK"
+        },
+        {
+          "file_reference_number": 39,
+          "path": "C:\\Windows\\System32\\WDI\\LogFiles\\ShutdownCKCL.etl",
+          "size": 1114112,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:50.600070",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "4a40b7cf49ae01968311b6114e1a1d22aa81e4c0",
+          "hash_sha256": "8dcd2d9492fb7c4845def9b21a1d65af61c5550922baa3341f462772a5df1a9e"
+        },
+        {
+          "file_reference_number": 87276,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\AppRepository\\Packages\\Microsoft.Windows.ShellExperienceHost_10.0.14393.0_neutral_neutral_cw5n1h2txyewy\\ActivationStore.dat",
+          "size": 65536,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:50.717306",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "a550a17236316ee420f0c78c70ba8a68d798b210",
+          "hash_sha256": "46c84ac94c35231420ea0b71622b816c6bd40196f4de52c0af067f7b5aee0444"
+        },
+        {
+          "file_reference_number": 88541,
+          "path": "C:\\Users\\Mary\\AppData\\Local\\Packages\\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\\Settings\\settings.dat",
+          "size": 8192,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:50.719296",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "1708bf683e53f901706da7b85800c3fe53415828",
+          "hash_sha256": "90a3b32315de17b883718c951693d06ec1842a856b1112abeecab5d8fa4451ee"
+        },
+        {
+          "file_reference_number": 88168,
+          "path": "C:\\Users\\Mary\\NTUSER.DAT",
+          "size": 1048576,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.071834",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED",
+            "HIDDEN"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "6a38222ba8ec5d02d9cc5446a3ddb2bc8d9238a1",
+          "hash_sha256": "e2e6a9a011e611c1afb67b20793c1761204948aebd83431e882a28a71c23b1ba"
+        },
+        {
+          "file_reference_number": 88293,
+          "path": "C:\\Users\\Mary\\AppData\\Local\\Microsoft\\Windows\\UsrClass.dat",
+          "size": 1835008,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.087452",
+          "attributes": [
+            "ARCHIVE",
+            "HIDDEN"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "762590149bebad2690f0b412c69c6cb4acf7488e",
+          "hash_sha256": "58e1109b5347294f87ba80393e23bed7b8ce3a42163b26f218241986c6dd8c6e"
+        },
+        {
+          "file_reference_number": 86834,
+          "path": "C:\\Windows\\appcompat\\Programs\\Amcache.hve",
+          "size": 524288,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.540636",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "8ee3863e9182c74632581b4f734d97a6d6698982",
+          "hash_sha256": "bd21de68f45e3fb0bbf0ff3d1eff3780a702435b9c72a7cef92d583ce9523dc3"
+        },
+        {
+          "file_reference_number": 46025,
+          "path": "C:\\Windows\\System32\\config\\SYSTEM",
+          "size": 9437184,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "a18bfb54b852760f27b2fe05ccf71475b13feecb",
+          "hash_sha256": "ba6b4f1fe2dc13ffb304ff5de43c74beaf54c2e697e3772e2af048748a62c7a1"
+        },
+        {
+          "file_reference_number": 86279,
+          "path": "C:\\Boot\\BCD",
+          "size": 24576,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "c34acb8d4eb10ff50edc9aad1ebce78532865f39",
+          "hash_sha256": "81137cae4066d67045de5dee25ed42992328633388b125520b95929f1fcf0295"
+        },
+        {
+          "file_reference_number": 48580,
+          "path": "C:\\Windows\\System32\\config\\SOFTWARE",
+          "size": 73138176,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "078897fc061f179dc1b1d68b8c3b55d1da736a47",
+          "hash_sha256": "b2fda701df2aaf6cedb3ab80a1f8d8d220257808b6d97cbb9a43dfca8020600e"
+        },
+        {
+          "file_reference_number": 46105,
+          "path": "C:\\Windows\\System32\\config\\DRIVERS",
+          "size": 5242880,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "f4a7e46f176d02a1eda4366c581728c5163e50f0",
+          "hash_sha256": "0437fa3d1af6e06ca9251d17786f6d65a42ff9ec977c8c4f68785fecd291bb6c"
+        },
+        {
+          "file_reference_number": 46013,
+          "path": "C:\\Windows\\System32\\config\\DEFAULT",
+          "size": 786432,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "806fb9abae73065856cddca291fa797ab25bf21c",
+          "hash_sha256": "441026026ed7ec5ae5ee02654ad757a2c804a52a2526125ea91234192314cc77"
+        },
+        {
+          "file_reference_number": 46020,
+          "path": "C:\\Windows\\System32\\config\\SECURITY",
+          "size": 32768,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "79447c62324d200568a32de2d21185825a3428c8",
+          "hash_sha256": "1c899fbb052dbf7a71258e579d20e3c0a302984bf8cb2f90e94dac4ac92da3c7"
+        },
+        {
+          "file_reference_number": 86551,
+          "path": "C:\\Windows\\ServiceProfiles\\NetworkService\\NTUSER.DAT",
+          "size": 262144,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "ff8f3516b47731b2cd9222b4af010f5eb38d1fea",
+          "hash_sha256": "0909d52b9d6c6ae7defcf4abbcbd271cda3078cb1420d45d48c464af949d32aa"
+        },
+        {
+          "file_reference_number": 46003,
+          "path": "C:\\Windows\\System32\\config\\BBI",
+          "size": 65536,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "69f521e166dcf69f3bd08934bd12495de1f0e303",
+          "hash_sha256": "c8e712fce5917efc07fca031c47e8aa6d85c1d72577bd55f3f9095d0ca4e02f5"
+        },
+        {
+          "file_reference_number": 86660,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\NTUSER.DAT",
+          "size": 262144,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.943900",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "MS Windows registry file, NT/2000 or above",
+          "hash": "6eeba28b06bbb54f22925211e84ee8b7a65c07b8",
+          "hash_sha256": "89de8f2ed461910be5da783614568bf2928a0e696119aa07eaf7d9bfdecc5268"
+        },
+        {
+          "file_reference_number": 86808,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\wfp\\wfpdiag.etl",
+          "size": 32768,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.959540",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "a1a1ac7266e86e3861df8ec5114e5b2db7f94a10",
+          "hash_sha256": "472e98f4a5b8617dcd50218460dee886c39e569d5134c53dd62b47213aeb340d"
+        },
+        {
+          "file_reference_number": 28600,
+          "path": "C:\\Windows\\System32\\LogFiles\\WMI\\Wifi.etl",
+          "size": 245760,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.959540",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "dBase III DBT, version number 0, next free block index 81920, 1st item \"14393.0.amd64fre.rs1_release.160715-1616\"",
+          "hash": "f91de0d08c34b49deb5a15d3210f056dfc3f8c60",
+          "hash_sha256": "ace80163b3aead79d7c1bc71f45691fd5276b102503a09975388ab85c3f55caf"
+        },
+        {
+          "file_reference_number": 28617,
+          "path": "C:\\Windows\\Prefetch\\ReadyBoot\\ReadyBoot.etl",
+          "size": 3145728,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.990782",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "7ba4b236aa08cba1de77bfe53fd95ac24c42b723",
+          "hash_sha256": "a508dd16cea063488e5940efd4b77fb0cad5f8cff520ebb0a8a78bba87076f4f"
+        },
+        {
+          "file_reference_number": 28602,
+          "path": "C:\\Windows\\System32\\LogFiles\\WMI\\NtfsLog.etl",
+          "size": 4096,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.990782",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "54130865ba866ab9e3370008fd83a5ba2e765030",
+          "hash_sha256": "d4bdf5c6be473a50e4d086699ddbd81ab7b969e94e507ccdcb820649935a3b26"
+        },
+        {
+          "file_reference_number": 28603,
+          "path": "C:\\Windows\\System32\\LogFiles\\WMI\\LwtNetLog.etl",
+          "size": 196608,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.990782",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "f742e8c4820e58f5202059b3b630b58d2ecebef7",
+          "hash_sha256": "3a6c0d16cea066e0a9122d6d58b124b8bac2099502a5fd496cec8b35f715bb9f"
+        },
+        {
+          "file_reference_number": 28603,
+          "path": "C:\\Windows\\System32\\LogFiles\\WMI\\LwtNetLog.etl",
+          "size": 196608,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:52.006390",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "f742e8c4820e58f5202059b3b630b58d2ecebef7",
+          "hash_sha256": "3a6c0d16cea066e0a9122d6d58b124b8bac2099502a5fd496cec8b35f715bb9f"
+        },
+        {
+          "file_reference_number": 28599,
+          "path": "C:\\ProgramData\\Microsoft\\Diagnosis\\ETLLogs\\AutoLogger\\AutoLogger-Diagtrack-Listener.etl",
+          "size": 65536,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:52.022008",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "52120e9d0915c30525caa0430fdd27e73aadf1a0",
+          "hash_sha256": "04727e3452579e97ce548906929a417b701c151848b8fe3953f1e364a95068e3"
+        },
+        {
+          "file_reference_number": 39,
+          "path": "C:\\Windows\\System32\\WDI\\LogFiles\\ShutdownCKCL.etl",
+          "size": 1114112,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:52.037628",
+          "attributes": [
+            "ARCHIVE",
+            "NOT_CONTENT_INDEXED"
+          ],
+          "type": "data",
+          "hash": "4a40b7cf49ae01968311b6114e1a1d22aa81e4c0",
+          "hash_sha256": "8dcd2d9492fb7c4845def9b21a1d65af61c5550922baa3341f462772a5df1a9e"
+        }
+      ],
+      "file_create": [
+        {
+          "file_reference_number": 87367,
+          "path": "C:\\Users\\Mary\\AppData\\Local\\Microsoft\\CLR_v4.0_32\\UsageLogs\\AsymmetricKeyExchangeFormat.exe.log",
+          "size": 1328,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:11.771056",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "ASCII text, with CRLF line terminators",
+          "hash": "1ce5bc8a4006828e7e7f9dd4e62bc0de28085226",
+          "hash_sha256": "9301dbd2fd78466ebc81a0b3b3ba33134abe65b54d769f415d25c66a133f4aec",
+          "extracted": true,
+          "ssdeep_hash": "24:ML9E4KsABKDE4KhK1JqKh7E495dlEE4+R/eIE4Kx1qE4KE4x84FsXE4j:MxHKdBYHKhQJqo7HLdlEH+RpHKx1qHKI"
+        },
+        {
+          "file_reference_number": 88821,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto",
+          "size": 136,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:13.396056",
+          "attributes": [
+            "SYSTEM",
+            "DIRECTORY"
+          ],
+          "type": "directory"
+        },
+        {
+          "file_reference_number": 88845,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA",
+          "size": 328,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:13.396056",
+          "attributes": [
+            "SYSTEM",
+            "DIRECTORY"
+          ],
+          "type": "directory"
+        },
+        {
+          "file_reference_number": 88861,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000",
+          "size": 376,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:13.396056",
+          "attributes": [
+            "SYSTEM",
+            "DIRECTORY"
+          ],
+          "type": "directory"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:13.411702",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 88919,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7",
+          "size": 152,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:13.458584",
+          "attributes": [
+            "DIRECTORY"
+          ],
+          "type": "directory"
+        },
+        {
+          "file_reference_number": 89219,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7\\71E33F.lck",
+          "size": 160,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:13.458584",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "07a36033499e31fd10c440ac63225bed8955f636",
+          "hash_sha256": "4a8a31e682132b6a2567ab6b0b05fc3f0de245aab9025d3fbd3121b752252e9d",
+          "type": "data",
+          "extracted": true,
+          "ssdeep_hash": "3:k1E9l9ll9X16l/l/l8Op8SuUSvF2lmMlPlcBAlRxl/n:8EHIt2BSuB2tcBAl9"
+        },
+        {
+          "file_reference_number": 89219,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7\\71E33F.lck",
+          "size": 160,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:13.474170",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "07a36033499e31fd10c440ac63225bed8955f636",
+          "hash_sha256": "4a8a31e682132b6a2567ab6b0b05fc3f0de245aab9025d3fbd3121b752252e9d",
+          "type": "data",
+          "extracted": true,
+          "ssdeep_hash": "3:k1E9l9ll9X16l/l/l8Op8SuUSvF2lmMlPlcBAlRxl/n:8EHIt2BSuB2tcBAl9"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:13.505496",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.396128",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.442954",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.489846",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 89219,
+          "path": "C:\\Windows\\System32\\WDI\\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\\{2ad7b1ee-92ca-4a8b-b75a-8ff1fb6dfe77}",
+          "size": 160,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:36.364864",
+          "attributes": [
+            "DIRECTORY"
+          ],
+          "type": "directory"
+        },
+        {
+          "file_reference_number": 89221,
+          "path": "C:\\Windows\\System32\\WDI\\{86432a0b-3c7d-4ddf-a89c-172faa90485d}\\{2ad7b1ee-92ca-4a8b-b75a-8ff1fb6dfe77}\\snapshot.etl",
+          "size": 229376,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:36.364864",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "2c2f97e2ba6e89eaac688fa727c76f0dfe5c983c",
+          "hash_sha256": "3f4dc931c1afc6658a44dab46a5056b6084f268edbf4bab02cbebc450ae8b736",
+          "extracted": true,
+          "ssdeep_hash": "768:zqP2OSN0NBfjvTRshmJSxJWzN/rruJG5ySuMtmDvLBseBFi9oSnG7DQcOan3skEv:esgFNjmDvLBXBFi1cOYK"
+        },
+        {
+          "file_reference_number": 89222,
+          "path": "C:\\Windows\\System32\\WDI\\LogFiles\\StartupInfo\\S-1-5-21-1023949764-3757402767-2889933183-1000_StartupInfo1.xml",
+          "size": 208,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:36.614836",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "7ae4fa25766b50036b7ad61471bc1c643cfdfc4f",
+          "hash_sha256": "5e2f9f523a10fcc3e4a7d6412a86eedfdd06e645b7d955d20b08674170dc68f6",
+          "type": "XML 1.0 document, Little-endian UTF-16 Unicode text, with CRLF line terminators",
+          "extracted": true,
+          "ssdeep_hash": "6:QFulcLk04/5p8GSlDiDQlgRENsD2iDolWmukdcEDO4huPUlPcevn:QF/LX4xp8XDiM632i0icXDCsd9v"
+        },
+        {
+          "file_reference_number": 89222,
+          "path": "C:\\Windows\\System32\\WDI\\LogFiles\\StartupInfo\\S-1-5-21-1023949764-3757402767-2889933183-1000_StartupInfo1.xml",
+          "size": 208,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:36.630448",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "7ae4fa25766b50036b7ad61471bc1c643cfdfc4f",
+          "hash_sha256": "5e2f9f523a10fcc3e4a7d6412a86eedfdd06e645b7d955d20b08674170dc68f6",
+          "type": "XML 1.0 document, Little-endian UTF-16 Unicode text, with CRLF line terminators",
+          "extracted": true,
+          "ssdeep_hash": "6:QFulcLk04/5p8GSlDiDQlgRENsD2iDolWmukdcEDO4huPUlPcevn:QF/LX4xp8XDiM632i0icXDCsd9v"
+        },
+        {
+          "file_reference_number": 88614,
+          "path": "C:\\Windows\\Temp\\HisD399.tmp",
+          "size": 16148,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.056240",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "1d823d7e1bdb31161fdef239f85ca3b9b3db2a21",
+          "hash_sha256": "2d7582607e4d90a2eed679c734b1f71ed7e89141b1c7a511d94d1c877d252b94",
+          "type": "data",
+          "extracted": true,
+          "ssdeep_hash": "12:xXGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHv:B2"
+        },
+        {
+          "file_reference_number": 1444,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\dmrc.idx.0",
+          "size": 715448,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.243764",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "4fa89f81e2f08a63c8fd29988f39b3d658a554b1",
+          "hash_sha256": "48fc2c86f53336c477fb55f4e31dcbaddb3eb9da666f1974cde2fe1bcb2c355f",
+          "type": "data",
+          "extracted": true,
+          "ssdeep_hash": "3072:mJCEaRnqWZ5+yuMR2hg8iWSTRPUbe9+liF4Wrg4gvhoXleo6XLhEO6n+2lVjG:ECEiZIk228aN+liU4le9OJG"
+        },
+        {
+          "file_reference_number": 1444,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\dmrc.idx.0",
+          "size": 715448,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "4fa89f81e2f08a63c8fd29988f39b3d658a554b1",
+          "hash_sha256": "48fc2c86f53336c477fb55f4e31dcbaddb3eb9da666f1974cde2fe1bcb2c355f",
+          "type": "data",
+          "extracted": true,
+          "ssdeep_hash": "3072:mJCEaRnqWZ5+yuMR2hg8iWSTRPUbe9+liF4Wrg4gvhoXleo6XLhEO6n+2lVjG:ECEiZIk228aN+liU4le9OJG"
+        },
+        {
+          "file_reference_number": 1444,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\dmrc.idx",
+          "size": 715448,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "4fa89f81e2f08a63c8fd29988f39b3d658a554b1",
+          "hash_sha256": "48fc2c86f53336c477fb55f4e31dcbaddb3eb9da666f1974cde2fe1bcb2c355f",
+          "extracted": true,
+          "ssdeep_hash": "3072:mJCEaRnqWZ5+yuMR2hg8iWSTRPUbe9+liF4Wrg4gvhoXleo6XLhEO6n+2lVjG:ECEiZIk228aN+liU4le9OJG"
+        },
+        {
+          "file_reference_number": 28604,
+          "path": "C:\\Windows\\System32\\LogFiles\\WMI\\RtBackup\\EtwRTDefenderApiLogger.etl",
+          "size": 0,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:52.006390",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "type": "empty",
+          "extracted": true,
+          "ssdeep_hash": "3::"
+        }
+      ],
+      "file_delete": [
+        {
+          "file_reference_number": 89219,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7\\71E33F.lck",
+          "size": 160,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:13.474170",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "07a36033499e31fd10c440ac63225bed8955f636",
+          "hash_sha256": "4a8a31e682132b6a2567ab6b0b05fc3f0de245aab9025d3fbd3121b752252e9d",
+          "type": "data",
+          "extracted": true,
+          "ssdeep_hash": "3:k1E9l9ll9X16l/l/l8Op8SuUSvF2lmMlPlcBAlRxl/n:8EHIt2BSuB2tcBAl9"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:13.505496",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.396128",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.442954",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 88878,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\Microsoft\\Crypto\\RSA\\S-1-5-21-1023949764-3757402767-2889933183-1000\\5861e02dc49d4caf955ac134e5450554_cb67f411-d8f4-41a2-bf2c-cb324ab5a632",
+          "size": 45,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.489846",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM"
+          ],
+          "type": "data",
+          "hash": "cbe3197e0d7d4a8e18b14791bfe1d19a8facf10d",
+          "hash_sha256": "34619a8825f7c530fc6e185d696a1970e8f0104824eedc71a579c06e2ef82d06",
+          "extracted": true,
+          "ssdeep_hash": "3:/lwlttn:WDn"
+        },
+        {
+          "file_reference_number": 89222,
+          "path": "C:\\Windows\\System32\\WDI\\LogFiles\\StartupInfo\\S-1-5-21-1023949764-3757402767-2889933183-1000_StartupInfo1.xml",
+          "size": 208,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:36.630448",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "7ae4fa25766b50036b7ad61471bc1c643cfdfc4f",
+          "hash_sha256": "5e2f9f523a10fcc3e4a7d6412a86eedfdd06e645b7d955d20b08674170dc68f6",
+          "type": "XML 1.0 document, Little-endian UTF-16 Unicode text, with CRLF line terminators",
+          "extracted": true,
+          "ssdeep_hash": "6:QFulcLk04/5p8GSlDiDQlgRENsD2iDolWmukdcEDO4huPUlPcevn:QF/LX4xp8XDiM632i0icXDCsd9v"
+        },
+        {
+          "file_reference_number": 1444,
+          "path": "C:\\Users\\Mary\\AppData\\Local\\Microsoft\\Windows\\UPPS\\UPPS.bin",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.056240",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 102087,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\OLDCACHE.000",
+          "size": 715176,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 86409,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\lastalive0.dat",
+          "size": 2048,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.306198",
+          "attributes": [
+            "ARCHIVE",
+            "SYSTEM",
+            "HIDDEN"
+          ]
+        },
+        {
+          "file_reference_number": 28604,
+          "path": "C:\\Windows\\System32\\LogFiles\\WMI\\RtBackup\\EtwRTUBPM.etl",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.975160",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 28604,
+          "path": "C:\\Windows\\System32\\LogFiles\\WMI\\RtBackup\\EtwRTDefenderApiLogger.etl",
+          "size": 0,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:52.006390",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "type": "empty",
+          "extracted": true,
+          "ssdeep_hash": "3::"
+        },
+        {
+          "file_reference_number": 28996,
+          "path": "C:\\Windows\\System32\\LogFiles\\WMI\\RtBackup\\EtwRTEventlog-Security.etl",
+          "size": 72,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:52.022008",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        }
+      ],
+      "rename_old_name": [
+        {
+          "file_reference_number": 88761,
+          "path": "C:\\Users\\Mary\\Documents\\AsymmetricKeyExchangeFormat.exe",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:14.427346",
+          "attributes": [
+            "NORMAL"
+          ]
+        },
+        {
+          "file_reference_number": 88050,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\FontCache-S-1-5-18.dat",
+          "size": 8388608,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:50.653298",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "0421bba39c418fc838e6f6b3ad3582d7a5dfaae6",
+          "hash_sha256": "d4e8fc32fe5e2a67ba7ae0745313180d6f9bf71a58dd54f6be536c9fedb031e9"
+        },
+        {
+          "file_reference_number": 87646,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\~FontCache-S-1-5-21-1023949764-3757402767-2889933183-1000.dat",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:50.946852",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 88614,
+          "path": "C:\\Windows\\Temp\\HisD399.tmp",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.056240",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 102087,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\dmrc.idx",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 1444,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\dmrc.idx.0",
+          "size": 715448,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "hash": "4fa89f81e2f08a63c8fd29988f39b3d658a554b1",
+          "hash_sha256": "48fc2c86f53336c477fb55f4e31dcbaddb3eb9da666f1974cde2fe1bcb2c355f",
+          "type": "data",
+          "extracted": true,
+          "ssdeep_hash": "3072:mJCEaRnqWZ5+yuMR2hg8iWSTRPUbe9+liF4Wrg4gvhoXleo6XLhEO6n+2lVjG:ECEiZIk228aN+liU4le9OJG"
+        },
+        {
+          "file_reference_number": 102087,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\dmrc.idx.2",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 88050,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\~FontCache-S-1-5-18.dat",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.306198",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 95123,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\~FontCache-System.dat",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.306198",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 86724,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\~FontCache-FontFace.dat",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.337448",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        }
+      ],
+      "rename_new_name": [
+        {
+          "file_reference_number": 88761,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7\\71E33F.exe",
+          "size": 528896,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.427346",
+          "attributes": [
+            "ARCHIVE",
+            "NORMAL"
+          ],
+          "type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+          "hash": "341ff9cf30dd95e235428981d4c99996ad02c245",
+          "hash_sha256": "849958b9b3c51dfa67fb877537f06062bc378c9e6922626773532a1e411fc130"
+        },
+        {
+          "file_reference_number": 88050,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\~FontCache-S-1-5-18.dat",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:50.653298",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 87646,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\FontCache-S-1-5-21-1023949764-3757402767-2889933183-1000.dat",
+          "size": 8388608,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:50.946852",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "e260a3d3d0e86e29e96258121e9665f766476481",
+          "hash_sha256": "915205b76085fec510d1f9e2bb07367217bac7dec2bee51c502c49e33c3f535a"
+        },
+        {
+          "file_reference_number": 88614,
+          "path": "C:\\Users\\Mary\\AppData\\Local\\Microsoft\\Windows\\UPPS\\UPPS.bin",
+          "size": 16148,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.056240",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "1d823d7e1bdb31161fdef239f85ca3b9b3db2a21",
+          "hash_sha256": "2d7582607e4d90a2eed679c734b1f71ed7e89141b1c7a511d94d1c877d252b94"
+        },
+        {
+          "file_reference_number": 102087,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\dmrc.idx.2",
+          "size": -1,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 1444,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\dmrc.idx",
+          "size": 715448,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "4fa89f81e2f08a63c8fd29988f39b3d658a554b1",
+          "hash_sha256": "48fc2c86f53336c477fb55f4e31dcbaddb3eb9da666f1974cde2fe1bcb2c355f",
+          "extracted": true,
+          "ssdeep_hash": "3072:mJCEaRnqWZ5+yuMR2hg8iWSTRPUbe9+liF4Wrg4gvhoXleo6XLhEO6n+2lVjG:ECEiZIk228aN+liU4le9OJG"
+        },
+        {
+          "file_reference_number": 102087,
+          "path": "C:\\ProgramData\\Microsoft\\Windows\\DeviceMetadataCache\\OLDCACHE.000",
+          "size": 715176,
+          "allocated": false,
+          "timestamp": "2022-08-02 18:32:51.290574",
+          "attributes": [
+            "ARCHIVE"
+          ]
+        },
+        {
+          "file_reference_number": 88050,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\FontCache-S-1-5-18.dat",
+          "size": 8388608,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.306198",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "0421bba39c418fc838e6f6b3ad3582d7a5dfaae6",
+          "hash_sha256": "d4e8fc32fe5e2a67ba7ae0745313180d6f9bf71a58dd54f6be536c9fedb031e9"
+        },
+        {
+          "file_reference_number": 95123,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\FontCache-System.dat",
+          "size": 300116,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.306198",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "d2d551572c97f5f31fa1cbcf190acdbe2c7c440a",
+          "hash_sha256": "1211cf4dcc1463afeafc7005719663c5e7f1796b2d7245e9adeba96f7aafb6cb"
+        },
+        {
+          "file_reference_number": 86724,
+          "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\FontCache-FontFace.dat",
+          "size": 16777216,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:51.337448",
+          "attributes": [
+            "ARCHIVE"
+          ],
+          "type": "data",
+          "hash": "8533f842a25062f31c5d58c8a3863f7a0385bf8e",
+          "hash_sha256": "159517d106f3cc138b770de4a7689ba704ed877f2f974912e76de772f1296b76"
+        }
+      ],
+      "indexable_change": [
+        {
+          "file_reference_number": 88761,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7\\71E33F.exe",
+          "size": 528896,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.458604",
+          "attributes": [
+            "NOT_CONTENT_INDEXED",
+            "SYSTEM",
+            "HIDDEN"
+          ],
+          "type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+          "hash": "341ff9cf30dd95e235428981d4c99996ad02c245",
+          "hash_sha256": "849958b9b3c51dfa67fb877537f06062bc378c9e6922626773532a1e411fc130"
+        },
+        {
+          "file_reference_number": 88919,
+          "path": "C:\\Users\\Mary\\AppData\\Roaming\\F0DAE7",
+          "size": 152,
+          "allocated": true,
+          "timestamp": "2022-08-02 18:32:14.458604",
+          "attributes": [
+            "NOT_CONTENT_INDEXED",
+            "SYSTEM",
+            "HIDDEN",
+            "DIRECTORY"
+          ],
+          "type": "directory"
+        }
+      ]
+    },
+    "registry": {
+      "created_keys": {
+        "HKCU\\System\\CurrentControlSet\\Control\\MediaProperties": {
+          "timestamp": "2022-08-02 18:31:25.890200",
+          "values": {}
+        },
+        "HKCU\\System\\CurrentControlSet\\Control\\MediaProperties\\PrivateProperties": {
+          "timestamp": "2022-08-02 18:31:25.890200",
+          "values": {}
+        },
+        "HKCU\\System\\CurrentControlSet\\Control\\MediaProperties\\PrivateProperties\\Joystick": {
+          "timestamp": "2022-08-02 18:31:25.890200",
+          "values": {}
+        },
+        "HKCU\\System\\CurrentControlSet\\Control\\MediaProperties\\PrivateProperties\\Joystick\\Winmm": {
+          "timestamp": "2022-08-02 18:31:25.890200",
+          "values": {
+            "wheel": {
+              "type": "REG_DWORD",
+              "data": 1
+            }
+          }
+        },
+        "HKCU\\��������������Ѝ�����Й����": {
+          "timestamp": "2022-08-02 18:32:14.458604",
+          "values": {
+            "F0DAE7": {
+              "type": "REG_EXPAND_SZ",
+              "data": "%APPDATA%\\F0DAE7\\71E33F.exe"
+            }
+          }
+        }
+      },
+      "created_values": {
+        "HKU\\Software\\Classes\\Local Settings\\MuiCache\\21\\52C64B7E": {
+          "timestamp": "2022-08-02 18:32:51.040578",
+          "values": {
+            "@%SystemRoot%\\System32\\SCardSvr.dll,-1": {
+              "type": "REG_SZ",
+              "data": "Smart Card"
+            },
+            "@gpapi.dll,-112": {
+              "type": "REG_SZ",
+              "data": "Group Policy Client"
+            },
+            "@%SystemRoot%\\System32\\themeservice.dll,-8192": {
+              "type": "REG_SZ",
+              "data": "Themes"
+            },
+            "@%SystemRoot%\\system32\\samsrv.dll,-1": {
+              "type": "REG_SZ",
+              "data": "Security Accounts Manager"
+            },
+            "@%SystemRoot%\\system32\\wiaservc.dll,-9": {
+              "type": "REG_SZ",
+              "data": "Windows Image Acquisition (WIA)"
+            },
+            "@%SystemRoot%\\system32\\vaultsvc.dll,-1003": {
+              "type": "REG_SZ",
+              "data": "Credential Manager"
+            }
+          }
+        },
+        "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\CIT\\Module\\Microsoft.NET/Framework/v4.0.30319/clr.dll": {
+          "timestamp": "2022-08-02 18:31:26.207104",
+          "values": {
+            "\\Device\\HarddiskVolume1\\Users\\Mary\\Documents\\AsymmetricKeyExchangeFormat.exe": {
+              "type": "REG_QWORD",
+              "data": 133039386862071040
+            }
+          }
+        },
+        "HKCU\\Local Settings\\Software\\Microsoft\\Windows\\Shell\\MuiCache": {
+          "timestamp": "2022-08-02 18:31:25.577700",
+          "values": {
+            "C:\\Windows\\System32\\cmd.exe.FriendlyAppName": {
+              "type": "REG_SZ",
+              "data": "Windows Command Processor"
+            },
+            "C:\\Windows\\System32\\cmd.exe.ApplicationCompany": {
+              "type": "REG_SZ",
+              "data": "Microsoft Corporation"
+            }
+          }
+        }
+      }
+    },
+    "network": {
+      "public": [
+        {
+          "time": "2022-08-02T11:32:14.860099+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "type": "net_tcp",
+          "protocol": "TCP",
+          "source_port": "49675",
+          "destination_port": "80"
+        },
+        {
+          "time": "2022-08-02T11:32:14.867699+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49675",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "/remote/five/",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "POST",
+          "version": "HTTP/1.0"
+        },
+        {
+          "time": "2022-08-02T11:32:14.867699+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49675",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "Undefined",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "Undefined",
+          "version": "Undefined"
+        },
+        {
+          "time": "2022-08-02T11:32:14.867699+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49675",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "Undefined",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "Undefined",
+          "version": "Undefined"
+        },
+        {
+          "time": "2022-08-02T11:32:15.827642+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "type": "net_tcp",
+          "protocol": "TCP",
+          "source_port": "49676",
+          "destination_port": "80"
+        },
+        {
+          "time": "2022-08-02T11:32:15.832082+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49676",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "/remote/five/",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "POST",
+          "version": "HTTP/1.0"
+        },
+        {
+          "time": "2022-08-02T11:32:15.832082+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49676",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "Undefined",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "Undefined",
+          "version": "Undefined"
+        },
+        {
+          "time": "2022-08-02T11:32:15.832082+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49676",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "Undefined",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "Undefined",
+          "version": "Undefined"
+        },
+        {
+          "time": "2022-08-02T11:32:15.913402+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "type": "net_tcp",
+          "protocol": "TCP",
+          "source_port": "49677",
+          "destination_port": "80"
+        },
+        {
+          "time": "2022-08-02T11:32:15.916262+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49677",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "/remote/five/",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "POST",
+          "version": "HTTP/1.0"
+        },
+        {
+          "time": "2022-08-02T11:32:15.916262+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49677",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "Undefined",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "Undefined",
+          "version": "Undefined"
+        },
+        {
+          "time": "2022-08-02T11:32:15.916262+00:00",
+          "source_ip": "10.20.242.51",
+          "destination_ip": "62.197.136.176",
+          "protocol": "TCP",
+          "source_port": "49677",
+          "destination_port": "80",
+          "type": "net_http",
+          "domain": "62.197.136.176",
+          "uri": "Undefined",
+          "url": "http://62.197.136.176/remote/five/",
+          "user_agent": "Mozilla/4.08 (Charon; Inferno)",
+          "request": "Undefined",
+          "version": "Undefined"
+        }
+      ]
+    }
+  }
+}

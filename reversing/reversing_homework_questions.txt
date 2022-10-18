@@ -1,0 +1,51 @@
+Homework: Reversing
+-------------------
+
+Imagine you're a student or an employee, and you have an ID consisting of a few alphanumeric
+characters. This can have any reasonable length, but let's suppose that it should be something
+between 5 and 10 characters (e.g. ABC123). Create such a string to represent your ID - you will
+need it for this homework.
+
+This archive contains a Windows executable, which simulates a license verification for this ID.
+
+Although the sample contains some techniques typical for malware, it is not malicious and can be
+safely handled on your computer.
+
+Please provide your answers to the questions below, together with relevant justifications, as a
+plain text document before the agreed deadline. Please make sure to be clear, but try also to be
+concise. Only answers in English will be considered.
+
+
+Questions
+---------
+    
+
+1. Something was modified in the executable to ensure that the instruction at .40842F does not
+   cause an access violation exception. What is it?
+   
+   The program makes the .text starting at .401000 section writeable so that it can write code there.
+	DS:[00401000]=57 ('W')
+
+
+2. The sample uses six anti-debugging tricks. Please list them, mention where they are located
+   in the binary and explain how you bypassed them. Note that we are NOT asking for any techniques
+   to potentially hinder static analysis.
+   .408425 - .40842B
+   The program checks the PEB structure to see if the program is being debugged. If it is, it uses the flag to change a value that it uses to decrypt some code in .text with xor
+   bypass: set the debug flag to zero.
+	
+	.401526 There seems to be some exceptions, this one is an access violation.
+
+
+3. What needs to be done to make the verification work for your ID, with the provided executable?
+   (i.e. modifying the sample is not a valid method).
+   
+   I'm not quite sure. I have seen the program is trying to open some file but I can't figure out what file it wants.
+   The program also graps various data such as different paths and the program name itself.
+
+4. Describe how you figured out the "missing piece" and its content. Note: this is not the same
+   as question 3; we are asking for your reasoning and methodology here.
+
+5. The license verification calculation is a slightly modified version of a well-known algorithm.
+   Which one? How did you find out?
+
